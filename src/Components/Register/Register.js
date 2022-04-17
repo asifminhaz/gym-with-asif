@@ -39,10 +39,10 @@ const Register = () => {
                                     <br></br>
                                     <input type="password" name="password" id="" placeholder='password'  required/>
                                     <br></br>
-                                    <input type="submit" value="Register" />
+                                    <input className='btn btn-primary mx-auto d-block' type="submit" value="Register" />
 
                           </form>
-                          <p>Already have an account? <Link to="/login" className='text-danger' onClick={navigateLogin}> Please Login</Link></p>
+                          <p>Already have an account? <Link to="/login" className='text-primary' onClick={navigateLogin}> Please Login</Link></p>
                     </div>
           );
 };
