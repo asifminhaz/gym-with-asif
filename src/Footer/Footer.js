@@ -9,15 +9,15 @@ const Footer = () => {
           return (
                     <footer>
  <Card className="text-center bg-dark text-white">
-  <Card.Header className='text-start'>Gym Freak</Card.Header>
+  <Card.Header className='text-start'></Card.Header>
   <Card.Body>
-    <Card.Title className='text-start'>contact me</Card.Title>
-    <Card.Text>
-      
+    <Card.Title className='text-start'>Gym Freak</Card.Title>
+    <Card.Text className='text-start'>
+    Being fit and living healthy is what I know and love.
     </Card.Text>
    
   </Card.Body>
-  <Card.Footer><p><small>copyright by gym freak @{year}</small></p></Card.Footer>
+  <Card.Footer><p><small>copyright by gym freak @{year} all rights reserved</small></p></Card.Footer>
 </Card>
 
                     </footer>
