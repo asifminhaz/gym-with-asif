@@ -13,7 +13,7 @@ const Footer = () => {
  <Card className="text-center bg-dark text-white">
   <Card.Header className='text-start'></Card.Header>
   <Card.Body>
-    <Card.Title className='text-start'>Gym Freak</Card.Title>
+    <Card.Title className='text-start'>Gym With Asif</Card.Title>
     <Card.Text className='text-start'>
     Being fit and living healthy is what I know and love.
     </Card.Text>
@@ -24,7 +24,7 @@ const Footer = () => {
     </Card.Text>
    
   </Card.Body>
-  <Card.Footer><p><small>copyright by gym freak &copy; {year} all rights reserved</small></p></Card.Footer>
+  <Card.Footer><p><small>copyright by gym with asif &copy; {year} all rights reserved</small></p></Card.Footer>
 </Card>
 
                     </footer>
