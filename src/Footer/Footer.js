@@ -1,4 +1,4 @@
-import { Button } from 'bootstrap';
+
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
@@ -9,9 +9,9 @@ const Footer = () => {
           return (
                     <footer>
  <Card className="text-center bg-dark text-white">
-  <Card.Header>Gym Freak</Card.Header>
+  <Card.Header className='text-start'>Gym Freak</Card.Header>
   <Card.Body>
-    <Card.Title></Card.Title>
+    <Card.Title className='text-start'>contact me</Card.Title>
     <Card.Text>
       
     </Card.Text>
