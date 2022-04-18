@@ -24,7 +24,7 @@ const Footer = () => {
     </Card.Text>
    
   </Card.Body>
-  <Card.Footer><p><small>copyright by gym with asif &copy; {year} all rights reserved</small></p></Card.Footer>
+  <Card.Footer><p><small>copyright &copy; {year} all rights reserved by  by gym with asif</small></p></Card.Footer>
 </Card>
 
                     </footer>

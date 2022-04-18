@@ -16,6 +16,7 @@ const Login = () => {
 
           const location = useLocation();
           let from = location.state?.from?.pathname || "/"
+          let errorElement;
           const [
                     signInWithEmailAndPassword,
                     user,
@@ -30,6 +31,12 @@ const Login = () => {
           const password = passwordRef.current.value;
           signInWithEmailAndPassword(email, password);
           }
+          
+          if (error) {
+            errorElement = <div>
+             <p className='text-danger'>Error: {error?.message}</p>
+             </div>
+            }
           if(loading || sending){
             return <Loading></Loading>
                }
@@ -72,6 +79,7 @@ const Login = () => {
     Login
   </Button>
 </Form>
+{errorElement}
 <p>New to Gym Freak? <Link to="/register" className='text-primary' onClick={navigateRegister}> Please Register</Link></p>
 <p>Forget Pssword? <button className='text-primary btn btn-link' onClick={resetPassword}> Reset Password</button></p>
 <SocialLogin></SocialLogin>
