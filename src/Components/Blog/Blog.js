@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
           return (
                     <div>
-                             <h1>Welcome to my blog</h1> 
+                             {/* <h1>Welcome to my blog</h1> 
                              <h2>1. Difference between authorization and authentication</h2>
                              <h3> Authentication:</h3>
                              <p>answer: 1. process of confirming the truth of an attribute of a single pieece of data vlaimed true by entity. </p>
@@ -31,9 +31,9 @@ const Blog = () => {
                                        <p>7.Predictions</p>
                                        <p>8.Cloud Messaging</p>
                                        <p>9.Dynamic Links</p>
-                                       <p>10.Remote Config</p>
+                                       <p>10.Remote Config</p> */}
 
-</p>
+{/* </p> */}
                     </div>
           );
 };
